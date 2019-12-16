@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome tests/"
+    "tests:chrome": "testcafe chrome tests/",
+    "tests:firefox": "testcafe firefox tests/",
+    "tests:safari": "testcafe safari tests/"
   },
   "keywords": [],
   "author": "",

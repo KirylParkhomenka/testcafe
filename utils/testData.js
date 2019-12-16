@@ -1,4 +1,3 @@
-
 export const Login = 'kirjanbi4';
 export const Password = 'b7rpow4s67QQ';
 

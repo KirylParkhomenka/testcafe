@@ -1,5 +1,5 @@
 ## Description
-Sample framework for UI Automation with [TestCafe] (https://devexpress.github.io/testcafe/) tool.
+Sample framework for UI Automation with [TestCafe](https://devexpress.github.io/testcafe/) tool.
 Chrome, Firefox and Safari should be installed locally.
 
 ## Getting started

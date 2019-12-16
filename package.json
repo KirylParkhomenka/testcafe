@@ -6,12 +6,18 @@
   "scripts": {
     "tests:chrome": "testcafe chrome tests/",
     "tests:firefox": "testcafe firefox tests/",
-    "tests:safari": "testcafe safari tests/"
+    "tests:safari": "testcafe safari tests/",
+    "tests:chrome-html": "testcafe chrome tests/ --reporter html:reports/chrome-report.html",
+    "tests:firefox-html": "testcafe firefox tests/ --reporter html:reports/firefox-report.html",
+    "tests:safari-html": "testcafe safari tests/ --reporter html:reports/safari-report.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "testcafe": "^1.7.0"
+  },
+  "dependencies": {
+    "testcafe-reporter-html": "^1.4.5"
   }
 }

@@ -18,6 +18,6 @@
     "testcafe": "^1.7.0"
   },
   "dependencies": {
-    "testcafe-reporter-html": "^1.4.5"
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
